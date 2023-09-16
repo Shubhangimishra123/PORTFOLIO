@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#navbar{
+    height: 25px;
+    width: 100%;
+    font-weight: 600;
+    padding: top 20px;
+    background-color: rgb(80, 160, 156);
+    display:inline-flex;
+    align-items:end;
+    justify-content:space-evenly;
+
+}
+#navbar ul li{
+    display:inline-block;
+    list-style:none;
+    margin : 0px 30px;
+}
+#navbar ul li a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    transition: 0.8s all;
+}
+#navbar ul li a:hover{
+    color:antiquewhite;
+    font-family: cursive;
+   }
+#hover-line::after{
+    content:'';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: antiquewhite;
+    transition: width .3;
+    
+}
+#hover-line:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    position: relative;
+
+}
+#left{
+    width:38%;
+    height: 100%;
+    background-color:black;
+    padding: 100px 100px;
+    
+}
+
+#centre{
+    width:62%;
+    height: 100%;
+    background-color: black;
+    padding: 100px 100px;
+    
+}
+#centre h1{
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 400;
+    color: rgb(40, 189, 164);
+    padding-bottom: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#centre p {
+    width: 100%;
+    line-height: 30px;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#centre  p span{
+    font-size: 20px;
+    color: rgb(161, 172, 218);
+}
+
+#content img{
+    height: 60%;
+    position:absolute;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius:100% ;
+    border-bottom-right-radius: 100%;
+    padding: 50px 50px;
+    border-radius: 100%;
+    margin-top: 5%;
+    border-style:ridge;
+    border-left: 150px;
+    border-color: rgb(19, 161, 193);
+}
