@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="navbar">
+            <ul>
+                <li><a href="#" class ="hover-line">About</a></li>
+                <li><a href="#" class ="hover-line">Skills</a></li>
+                <li><a href="#" class ="hover-line">Education</a></li>
+                <li><a href="#" class ="hover-line">contact</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="left">
+               
+            </div>
+            
+            <div id="centre">
+                <h1>About Me </h1>
+                <p> I am <span>Shubhangi</span> here , creative and individual with a passion for problem solving and learning. I thrive in dynamic environment and enjoy collabrating with team to achieve shared goals.with a strong drive for personal growth , I' am eager to take a on new challenges and make a positive impact.
+                <br><span>Objective:-</span> To work in an environment which encourages me to succeed and grow professionally where I can utilize my skills and knowledge appropriately.</br></p>
+            </div>
+            <img src="./shubhi.jpg.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
